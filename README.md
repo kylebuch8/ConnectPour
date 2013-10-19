@@ -8,7 +8,7 @@ Get Started
 ```
 cd webapp
 
-npm install
+npm install && bower install
 ```
 
 #### Start the Server
