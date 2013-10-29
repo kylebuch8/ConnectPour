@@ -1,0 +1,26 @@
+[
+	{
+		"username": "Kyle Buchanan",
+		"createDate": "October 24, 2013",
+		"beer": {
+			"name": "Punkin Ale",
+			"brewery": {
+				"name": "Dogfish Head"
+			}
+		},
+		"rating": "5",
+		"image": "http://placehold.it/350x150"
+	},
+	{
+		"username": "Bret Jutras",
+		"createDate": "October 24, 2013",
+		"beer": {
+			"name": "Pale Ale",
+			"brewery": {
+				"name": "Sierra Nevada"
+			}
+		},
+		"rating": "5",
+		"image": "http://placehold.it/350x150"
+	}
+]

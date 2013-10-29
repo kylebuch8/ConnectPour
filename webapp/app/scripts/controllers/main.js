@@ -1,10 +1,6 @@
 'use strict';
 
 angular.module('ConnectPourApp')
-  .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+	.controller('MainCtrl', ['$scope', 'Feed', function($scope, Feed) {
+		$scope.entries = Feed.query();
+	}]);
