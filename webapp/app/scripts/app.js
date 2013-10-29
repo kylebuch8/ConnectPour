@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('ConnectPourApp', [])
+angular.module('ConnectPourApp', ['ngResource'])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
