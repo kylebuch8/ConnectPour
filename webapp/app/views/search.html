@@ -1,0 +1,15 @@
+<p>This is the search view.</p>
+<form class="beer-search">
+	<div class="input-append">
+    	<input type="text" class="span2 search-query" ng-model="searchTerm">
+    	<button type="submit" class="btn" ng-click="search()">Search</button>
+	</div>
+</form>
+<div class="results">
+	<div class="beer" ng-repeat="beer in results">
+		<img ng-src="{{beer.labels.icon}}">
+		<h3>{{beer.name}}</h3>
+		<h4>{{beer.breweries[0].name}}</h4>
+		<hr>
+	</div>
+</div>
